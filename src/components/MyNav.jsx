@@ -5,7 +5,7 @@ const MyNav = (props) => {
   return (
     <>
       <section
-        className={`mb_66
+        className={`mt-5
        ${props.bg_color}`}
       >
         <div className="my_container">

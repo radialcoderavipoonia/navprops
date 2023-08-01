@@ -6,7 +6,7 @@ const RedNav = () => {
   return (
     <>
       <MyNav bg_color="bg_red" clr="color_red" all="All pages" arrow={aro}>
-        <li className="ff_poppins fs_16 fw_400  pl_30 pe-2 mb-0">
+        <li className="ff_poppins fs_16 fw_400 pl_30 pe-2 mb-0">
           <a href="#" className="text-white">
             Work
           </a>

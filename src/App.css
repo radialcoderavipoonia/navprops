@@ -7,7 +7,7 @@
   text-decoration: none !important;
   box-sizing: border-box !important;
 }
-.my_container{
+.my_container {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
@@ -50,30 +50,66 @@
 .br_4 {
   border-radius: 4px;
 }
-.pointer{
+.pointer {
   cursor: pointer;
 }
-.pl_30{
-  padding-left: 30px; 
+.pl_30 {
+  padding-left: 30px;
 }
-.bg_red{
-  background: #F00;
+.bg_red {
+  background: #f00;
 }
-.bg_green{
-  background: #9ACD32;
+.bg_green {
+  background: #9acd32;
 }
-.bg_black{
+.bg_black {
   background: #181818;
 }
-.color_black{
-   color: #181818;
+.color_black {
+  color: #181818;
 }
-.color_red{
-  color: #F00;
+.color_red {
+  color: #f00;
 }
-.color_green{
- color: #9ACD32;
+.color_green {
+  color: #9acd32;
 }
-.mb_66{
+.mb_66 {
   margin-bottom: 66px;
+}
+.mw_296 {
+  max-width: 296px;
+}
+.h_183 {
+  height: 183px;
+}
+.opacity_69 {
+  opacity: 0.699999988079071;
+}
+.pt_27 {
+  padding-top: 27px;
+}
+.br_80 {
+  border-radius: 80px 80px 0px 0px;
+}
+.mt_40 {
+  margin-top: 40px;
+}
+.bg_card {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  height: 282px;
+  border: 2px solid transparent;
+}
+
+.btn_gettouch {
+  padding: 12px 24px;
+  border-radius: 4px;
+  background: linear-gradient(136deg, #df381f 0%, #aa0606 100%, #438308 100%);
+}
+.br_hovergreen:hover {
+  border: 2px solid #438308;
+}
+.br_hoverred:hover {
+  border: 2px solid #df381f;
 }
