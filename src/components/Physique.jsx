@@ -31,12 +31,14 @@ const Physique = ({
                     <img
                       src={card.img}
                       alt="card images"
-                      className="pt-4 mt-1 ps-4 ms-1 mb-0 "
+                      className="pt-4 mt-1 ps-4  mb-0 "
                       width={80}
                       height={70}
                     />
-                    <p className="text-white ps-4 ms-1 ff_poppins fs_16 fw_500 pt-3">{card.hading}</p>
-                    <p className="mb-0 ps-4 ms-1 ff_poppins bg_change fs_16 fw_400 text-white opacity-50 pt-2">
+                    <p className="text-white ps-4  ff_poppins fs_16 fw_500 pt-3">
+                      {card.hading}
+                    </p>
+                    <p className="mb-0 ps-4 ff_poppins bg_change fs_16 fw_400 text-white opacity-50 pt-2">
                       {card.para}
                     </p>
                   </div>

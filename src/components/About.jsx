@@ -16,7 +16,7 @@ const About = () => {
         hoverborder="br_hoverred"
       >
         <div className="text-center">
-          <button className="border-0 btn_gettouch text-white mt-3">
+          <button className="border-0 ff_poppins fs_16 fw_500 btn_gettouch text-white mt-3">
             Get in touch
           </button>
         </div>

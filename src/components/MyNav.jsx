@@ -1,31 +1,33 @@
 import React from "react";
 import nav_logo from "../assets/images/png/Logo.png";
 import arrow from "../assets/images/png/dropdown_icon.png";
+import { Link } from "react-router-dom";
 const MyNav = (props) => {
   return (
     <>
       <section
         className={`mt-5
-       ${props.bg_color}`}
-      >
+       ${props.bg_color}`}>
         <div className="my_container">
           <nav className="d-flex justify-content-between align-items-center pt_21 pb_21">
             <div>
-              <img className="pointer" src={nav_logo} alt="nav logo" />
+              <Link to="/">
+                <img className="pointer" src={nav_logo} alt="nav logo" />
+              </Link>
             </div>
             <ul className="mb-0 d-flex justify-content-between align-items-center">
-              <li className="ff_poppins fs_16 fw_400  pe-2 mb-0">
-                <a href="#" className="text-white">
+              <li className="ff_poppins text-white fs_16 fw_400  pe-2 mb-0">
+                <Link to="/home" className="text-white">
                   Home
-                </a>
+                </Link>
               </li>
               <span className="pointer">
                 <img src={arrow} alt="arrow" />
               </span>
               <li className="ff_poppins fs_16 fw_400  pl_30 pe-2 mb-0">
-                <a href="#" className="text-white">
+                <Link to="/about" className="text-white">
                   About
-                </a>
+                </Link>
               </li>
               <span className="pointer">
                 <img src={arrow} alt="arrow" />
