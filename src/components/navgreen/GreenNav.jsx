@@ -1,5 +1,5 @@
-import React from 'react'
-import MyNav from './MyNav'
+import React from "react";
+import MyNav from "../common/MyNav";
 
 const GreenNav = () => {
   return (
@@ -7,6 +7,6 @@ const GreenNav = () => {
       <MyNav bg_color="bg_green" clr="color_green" all="Projects" />
     </>
   );
-}
+};
 
-export default GreenNav
+export default GreenNav;

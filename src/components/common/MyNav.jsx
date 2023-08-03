@@ -1,6 +1,6 @@
 import React from "react";
-import nav_logo from "../assets/images/png/Logo.png";
-import arrow from "../assets/images/png/dropdown_icon.png";
+import nav_logo from "../../assets/images/png/Logo.png";
+import arrow from "../../assets/images/png/dropdown_icon.png";
 import { Link } from "react-router-dom";
 const MyNav = (props) => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
+import {Children} from "react"
 import { Col, Row } from "react-bootstrap";
-import { fitfive } from "./common/Help";
 const Physique = ({
   fitfive_img,
   hadingtext,
@@ -8,6 +8,7 @@ const Physique = ({
   hoverborder,
   fitfive,
 }) => {
+  const childarray = Children.toArray(children);
   return (
     <>
       <section className="bg_black mb-5 pb-5 br_80">
@@ -18,10 +19,11 @@ const Physique = ({
               alt="page logo"
               className="w-100 mw_296 h_183"
             />
+
             <p className="ff_poppins pt_27 fs_16 fw_400 text-white text-center opacity_69 mb-0">
               {hadingtext}
             </p>
-            {children}
+            {childarray[0]}
           </div>
           <Row className="pt-5 mt_40">
             {fitfive.map((card) => {

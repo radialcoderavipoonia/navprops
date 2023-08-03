@@ -1,7 +1,7 @@
 import React from "react";
-import MyNav from "./MyNav";
-import arrow from "../assets/images/png/dropdown_icon.png";
-import aro from "../assets/images/png/dropdown_icon.png"
+import MyNav from "../common/MyNav";
+import arrow from "../../assets/images/png/dropdown_icon.png";
+import aro from "../../assets/images/png/dropdown_icon.png";
 const RedNav = () => {
   return (
     <>

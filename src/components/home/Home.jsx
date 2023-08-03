@@ -1,12 +1,12 @@
 import React from "react";
-import fitfivegreen from "../assets/images/png/green.png";
-import Physique from "./Physique";
-import { fitgreen } from "./common/Help";
-import GreenNav from "./GreenNav";
+import fitfivegreen from "../../assets/images/png/green.png";
+import Physique from "../common/Physique";
+import { fitgreen } from "../common/Help";
+import GreenNav from "../navgreen/GreenNav";
 const Home = () => {
   return (
     <>
-      <GreenNav/>
+      <GreenNav />
       <Physique
         fitfive_img={fitfivegreen}
         hadingtext="What we eat impacts our health and well-being on a fundamental level."
